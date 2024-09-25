@@ -1,8 +1,35 @@
-# React + Vite
+# React Context API POC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Proof of Concept (POC) application demonstrating how to integrate and use React Context API for state management in a React application.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The purpose of this POC is to show how the React Context API can be used to manage and share state across various components in a React application without prop drilling. The application is a simple example where a theme context is used to toggle between light and dark themes.
+
+## Features
+
+- **React Context API**: Demonstrates the use of React Context API for state management.
+- **Theme Toggle**: Implements a theme toggle feature using context.
+- **Component Communication**: Shows how different components can communicate through context.
+
+## Installation
+
+To get started with this project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/vjsuthar1991/react-context.git
+cd react-context
+npm install
+
+## Usage
+npm run dev
